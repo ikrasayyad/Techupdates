@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updates"
+    tools:ignore="ExtraText"
+    >
+
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/navigate"
+        android:src="@drawable/navigate"
+        tools:ignore="MissingConstraints" />/>
+
+    <TextView
+        android:layout_width="272dp"
+        android:layout_height="248dp"
+        android:layout_margin="150dp"
+        android:text="Information"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:autoSizeTextType="none"
+        app:drawableTint="@color/black"
+        app:fontFamily="serif"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <ImageView
+        android:layout_width="41dp"
+        android:layout_height="48dp"
+        android:src="@drawable/mike"
+        tools:layout_editor_absoluteX="343dp"
+        tools:layout_editor_absoluteY="667dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
